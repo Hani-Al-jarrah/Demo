@@ -69,8 +69,7 @@
   <ItemGroup>
     <Content Include="Anas\test1.aspx" />
     <Content Include="Hani\Demo.aspx" />
-    <Content Include="Toqa\Home.aspx" />
-    <Content Include="Toqa\Login.aspx" />
+    <Content Include="Rudaina\WebForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -89,19 +88,12 @@
       <DependentUpon>Demo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Toqa\Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="Rudaina\WebForm.aspx.cs">
+      <DependentUpon>WebForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Toqa\Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Toqa\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Toqa\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="Rudaina\WebForm.aspx.designer.cs">
+      <DependentUpon>WebForm.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
