@@ -70,6 +70,8 @@
     <Content Include="Anas\test1.aspx" />
     <Content Include="Hani\Demo.aspx" />
     <Content Include="Rudaina\WebForm.aspx" />
+    <Content Include="Toqa\Home.aspx" />
+    <Content Include="Toqa\Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +97,18 @@
     <Compile Include="Rudaina\WebForm.aspx.designer.cs">
       <DependentUpon>WebForm.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Toqa\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Toqa\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Toqa\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Toqa\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -106,7 +120,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Anas\" />
     <Folder Include="Sofyan\" />
   </ItemGroup>
   <PropertyGroup>
