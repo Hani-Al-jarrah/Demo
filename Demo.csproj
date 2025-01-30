@@ -70,6 +70,7 @@
     <Content Include="Anas\test1.aspx" />
     <Content Include="Hani\Demo.aspx" />
     <Content Include="Rudaina\WebForm.aspx" />
+    <Content Include="suhaib\suhaibForm.aspx" />
     <Content Include="Toqa\Home.aspx" />
     <Content Include="Toqa\Login.aspx" />
     <Content Include="Web.config" />
@@ -97,8 +98,16 @@
     <Compile Include="Rudaina\WebForm.aspx.designer.cs">
       <DependentUpon>WebForm.aspx</DependentUpon>
     </Compile>
+    <Compile Include="suhaib\suhaibForm.aspx.cs">
+      <DependentUpon>suhaibForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="suhaib\suhaibForm.aspx.designer.cs">
+      <DependentUpon>suhaibForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Toqa\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Toqa\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
